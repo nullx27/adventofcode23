@@ -13,4 +13,4 @@ bench day:
     cargo bench --bench bench -p {{day}} -q
 
 new day:
-    cargo generate --path ./template --name {{day}}
+    cargo generate --path ./template --name {{day}} --vcs none
